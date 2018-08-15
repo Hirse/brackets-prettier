@@ -1,0 +1,9 @@
+images/
+test/
+.editorconfig
+.eslintrc.json
+.gitignore
+.prettierrc.json
+.travis.yml
+*.tgz
+*.zip

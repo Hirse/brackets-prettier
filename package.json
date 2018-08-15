@@ -1,0 +1,42 @@
+{
+  "name": "hirse.brackets-prettier",
+  "title": "Prettier",
+  "version": "1.0.0",
+  "description": "Format Files using Prettier",
+  "engines": {
+    "brackets": ">=1.13.0"
+  },
+  "homepage": "https://github.com/hirse/brackets-prettier",
+  "repository": "Hirse/brackets-prettier",
+  "bugs": "https://github.com/Hirse/brackets-prettier/issues",
+  "author": "Jan Pilzer (https://github.com/Hirse)",
+  "license": "MIT",
+  "categories": "editing",
+  "keywords": [
+    "prettier",
+    "formatting"
+  ],
+  "i18n": [
+    "en",
+    "de"
+  ],
+  "package-i18n": {
+    "de": {
+      "description": "Formatiere Dateien mit Prettier"
+    }
+  },
+  "dependencies": {
+    "prettier": "1.14.2"
+  },
+  "devDependencies": {
+    "eslint": "5.3.x",
+    "eslint-config-prettier": "3.0.x",
+    "eslint-plugin-prettier": "2.6.x",
+    "tar-to-zip": "2.0.x"
+  },
+  "scripts": {
+    "bundle:win": "npm pack && tar2zip %npm_package_name%-%npm_package_version%.tgz",
+    "lint": "eslint .",
+    "test": "npm run lint"
+  }
+}

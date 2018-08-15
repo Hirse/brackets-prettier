@@ -1,0 +1,6 @@
+#prettier-icon {
+    background-image: url(icons/prettier.svg);
+    background-origin: content-box;
+    box-sizing: border-box;
+    padding: 3px;
+}
