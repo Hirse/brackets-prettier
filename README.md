@@ -12,6 +12,8 @@
 # Brackets Prettier
 [Brackets][Brackets] Extension to format files using [Prettier][prettier].
 
+![Brackets Prettier Button](https://raw.githubusercontent.com/Hirse/brackets-prettier/master/images/brackets-prettier.png)
+
 ## Installation
 ### Latest Release
 To install the latest _release_ of this extension use the built-in Brackets [Extension Manager][Brackets Extension Manager] which downloads the extension from the [Brackets Extension Registry][Brackets Extension Registry].
@@ -25,6 +27,12 @@ https://github.com/Hirse/brackets-prettier/archive/master.zip
 ### Brackets npm Registry
 The latest _release_ of this extension is also available on the [Brackets npm Registry][Brackets npm Registry].
 
+## Usage
+Use the Toolbar Button with the prettier icon, the menu entry *Edit* > *Format File with Prettier*, or the keyboard shortcut `Ctrl`-`Alt`-`F` (`Cmd`-`Shift`-`F` on Mac).
+
+## Configuration
+This extension reads indentation settings from Brackets and otherwise relies on Prettier to determine the configuration itself. Prettier [options][prettier options] can be set in a [configuration file][prettier config file] in the project folder.
+
 ## License
 Brackets Detect Indentation is licensed under the [MIT license][MIT].  
 [Prettier][prettier] itself is also licensed under the [MIT license][MIT].
@@ -36,3 +44,5 @@ Brackets Detect Indentation is licensed under the [MIT license][MIT].
 [Brackets npm Registry]: https://github.com/zaggino/brackets-npm-registry
 [MIT]: https://opensource.org/licenses/MIT
 [prettier]: https://prettier.io
+[prettier options]: https://prettier.io/docs/en/options.html
+[prettier config file]: https://prettier.io/docs/en/configuration.html
