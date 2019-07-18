@@ -1,7 +1,7 @@
 {
   "name": "hirse.brackets-prettier",
   "title": "Prettier",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Format Files using Prettier",
   "engines": {
     "brackets": ">=1.13.0"
@@ -26,12 +26,12 @@
     }
   },
   "dependencies": {
-    "prettier": "1.14.2"
+    "prettier": "1.18.2"
   },
   "devDependencies": {
-    "eslint": "5.3.x",
-    "eslint-config-prettier": "3.0.x",
-    "eslint-plugin-prettier": "2.6.x",
+    "eslint": "6.0.x",
+    "eslint-config-prettier": "6.0.x",
+    "eslint-plugin-prettier": "3.1.x",
     "tar-to-zip": "2.0.x"
   },
   "scripts": {
