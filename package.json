@@ -29,8 +29,8 @@
     "prettier": "1.18.2"
   },
   "devDependencies": {
-    "eslint": "6.0.x",
-    "eslint-config-prettier": "6.0.x",
+    "eslint": "6.5.x",
+    "eslint-config-prettier": "6.3.x",
     "eslint-plugin-prettier": "3.1.x",
     "tar-to-zip": "2.0.x"
   },
