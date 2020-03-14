@@ -29,10 +29,10 @@
     "prettier": "1.18.2"
   },
   "devDependencies": {
-    "eslint": "6.5.x",
-    "eslint-config-prettier": "6.3.x",
-    "eslint-plugin-prettier": "3.1.x",
-    "tar-to-zip": "2.0.x"
+    "eslint": "6.x.x",
+    "eslint-config-prettier": "6.x.x",
+    "eslint-plugin-prettier": "3.x.x",
+    "tar-to-zip": "2.x.x"
   },
   "scripts": {
     "bundle:win": "npm pack && tar2zip %npm_package_name%-%npm_package_version%.tgz",
