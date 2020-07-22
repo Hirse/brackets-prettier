@@ -26,10 +26,11 @@
     }
   },
   "dependencies": {
-    "prettier": "1.18.2"
+    "@prettier/plugin-php": "0.14.2",
+    "prettier": "2.0.5"
   },
   "devDependencies": {
-    "eslint": "6.x.x",
+    "eslint": "7.x.x",
     "eslint-config-prettier": "6.x.x",
     "eslint-plugin-prettier": "3.x.x",
     "tar-to-zip": "2.x.x"
