@@ -1,9 +1,5 @@
 [![npm Version](https://img.shields.io/npm/v/hirse.brackets-prettier.svg)](https://www.npmjs.com/package/hirse.brackets-prettier)
-[![Brackets Extension Registry Version](https://badges.ml/hirse.brackets-prettier/version.svg)](https://brackets-extension-badges.github.io#hirse.brackets-prettier)
-[![Brackets Extension Registry Downloads](https://badges.ml/hirse.brackets-prettier/total.svg)](https://brackets-extension-badges.github.io#hirse.brackets-prettier)
-
 [![Build Status](https://travis-ci.org/Hirse/brackets-prettier.svg?branch=master)](https://travis-ci.org/Hirse/brackets-prettier)
-[![Greenkeeper](https://badges.greenkeeper.io/Hirse/brackets-prettier.svg)](https://greenkeeper.io/)
 
 <a href="http://brackets.io/"><img src="https://raw.githubusercontent.com/Hirse/brackets-prettier/master/images/brackets.png" alt="Brackets" align="left" /></a>
 
